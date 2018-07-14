@@ -1,14 +1,85 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+
+
+<style>
+.jumbotron{
+    background-color:#2E2D88;
+    color:white;
+}
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+.nav-tabs {
+    margin-bottom: 0;
+}
+</style>
+
+
+
 <body>
-<center>爸爸妈妈的小宝宝们</center>
-🐰：“我是小猪猪兔”
-<center><img src="tutu.jpeg"></center>
-🐻：“我是大肥肥”
-<center><img src="dafeifei.jpeg"></center>
-🐶：“我是小西瓜”
-<center><img src="xiaoxigua.jpeg" width="1080" height="1920"></center>
-🐰：“我是大兔兔”
-<center><img src="datutu.jpg" width="1080" height="1080"></center>
+    
+     <div class="container">
+        <div class ="page-header">
+        <h1><center>爸爸妈妈的小宝宝们</center></h1>
+        </div>
+    </div>
+
+    <div id="list-example" class="list-group">
+            <a class="list-group-item list-group-item-action" href="#list-item-1">小兔兔🐰</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-2">大肥肥🐻</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-3">小西瓜🐶</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-4">大兔兔🐰</a>
+          </div>
+          <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">
+            <p><div class="alert alert-primary" role="alert">
+            <h4 id="list-item-1">小兔兔🐰</h4>
+                    <center>🐰：“我是小猪猪兔!”</center>
+                    <center><img src="tutu.jpeg"></center>
+            </div></p>
+
+            <p>
+            <div class="alert alert-success" role="alert">
+            <h4 id="list-item-2">大肥肥🐻</h4>
+        
+                    <center>🐻：“我是大肥肥!”</center>
+                    <center><img src="dafeifei.jpeg"></center>
+                  </div>
+            </p>
+
+            <p><div class="alert alert-danger" role="alert">
+                    <h4 id="list-item-3">小西瓜</h4>
+                            <center>🐶：“我是小西瓜!”</center>
+                            <center><img src="xiaoxigua.jpeg" width="1080" height="1800"></center>
+                          </div>
+                    </p>
+
+
+            <p><div class="alert alert-warning" role="alert">
+            <h4 id="list-item-4">大兔兔🐰</h4>
+                    <center>🐰：“我是大兔兔!”</center>
+                    <center><img src="datutu.jpg" width="1080" height="1080"></center>
+                  </div></p>
+          </div>
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
 </body>
 </html>
 
